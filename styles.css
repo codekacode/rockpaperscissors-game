@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Neucha&family=Press+Start+2P&family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+header {
+    background: #285ec3;
+    padding: 30px;
+}
+
+
+header > h1 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;    
+    text-align: center;
+    font-size: 50PX;
+}
+
+.score-board {
+    margin: 70px auto;
+    border: 3px solid #f654ae;
+    border-radius: 6px;
+    width: 250px;
+    background-color:#f654ae;
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background-color: #f9c500;
+    font-size: 20px;
+    padding: 3px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -35px;
+}
+
+.result {
+    font-size: 50px;
+    color: #5c0dac;
+}
+
+.result> p {
+    font-family: 'Orbitron', sans-serif; 
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    width: 130px;
+    border-radius: 50px;
+    
+}
+.choices{
+    margin-top: 100px ;
+    text-align: center;
+}
+.choice {
+    display: inline-block;
+    border: 4px solid #f9c500;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 0 16px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #f654ae;
+}
+
+#action-message {
+    text-align: center;
+    color: #f654ae;
+    font-family: 'Orbitron', sans-serif; 
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 80px;
+
+}
